@@ -30,19 +30,19 @@ public class RockPaperScissors{
  }
  System.out.println("Here is the winner");
  if(YourTurn==0 && ComputerTurn==1){
-    System.out.println("Computer jitigola .Tu gandimara");
+    System.out.println("Computer Win");
  } else if(YourTurn==1 && ComputerTurn==2){
-    System.out.println("Computer jitigola.Tu gandimara");
+    System.out.println("Computer Win");
  } else if(YourTurn==2 &&ComputerTurn==0){
-    System.out.println("Computer jitigola.Tu gandimara");
+    System.out.println("Computer Win");
  } else if(YourTurn==1 && ComputerTurn==0){
-    System.out.println("Tu jitigolu.Jaa Gandimara");
+    System.out.println("You Win");
  }else if(YourTurn==2 &&ComputerTurn==1){
-    System.out.println("Tu jitigolu.Ja Gandimara");
+    System.out.println("You Win");
  } else if(YourTurn==0 &&ComputerTurn==2){
-    System.out.println("Tu jitigolu.Ja Gandimara");
+    System.out.println("You Win");
  } else if(YourTurn==0 &&ComputerTurn==0 || YourTurn==1 &&ComputerTurn==1||YourTurn==2  &&ComputerTurn==2){
-System.out.println("Match Draw heigola . Ta Gandi re Dum achi jodi Au thara khel");
+System.out.println("Match Draw ");
  }
  i++;
     }
